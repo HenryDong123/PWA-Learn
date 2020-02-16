@@ -1,5 +1,5 @@
 // selfQ       全局
-const CACHE_NAME = 'cache-v2g'
+const CACHE_NAME = 'cache-v2'
 self.addEventListener('install', e => {
     console.log('install', e)
     // 参数是Promise在Promise完成后触发，延迟activate
